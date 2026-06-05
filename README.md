@@ -32,7 +32,6 @@ This project manages music beat metadata such as title, BPM, genre, and ID. It s
 The purpose of this project is to practice backend API development using Python and FastAPI. It simulates a music catalog backend that could be used for a beat store, producer dashboard, music library, or audio-related application.
 
 ## API Endpoints
-
 | Method | Endpoint | Description |
 |---|---|---|
 | GET | `/` | Confirms the API is running |
