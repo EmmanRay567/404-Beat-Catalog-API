@@ -2,7 +2,7 @@
 
 A RESTful music beat catalog API built with **Python**, **FastAPI**, **SQLite**, **SQLAlchemy**, and **Pydantic**.
 
-This project manages music beat metadata such as title, BPM, genre, and ID. It supports creating, reading, updating, deleting, and filtering beats through API endpoints.
+This project manages music beat metadata such as title, BPM, genre, and ID. It supports creating, reading, updating, deleting, and filtering beats through API endpoints, using the CRUD techniques
 
 ## Features
 
