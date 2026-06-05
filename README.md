@@ -50,4 +50,19 @@ The purpose of this project is to practice backend API development using Python 
 ```bash
 git clone https://github.com/EmmanRay567/404-Beat-Catalog-API.git
 
+### 2. Move into the project folder
+
+```bash
+cd 404-Beat-Catalog-API
+
+pip install -r requirements.txt
+
+py -m uvicorn MusicBeatsAPI:app --reload
+
+Home Route:
+http://127.0.0.1:8000/
+
+the API route:
+http://127.0.0.1:8000/docs
+
 
