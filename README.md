@@ -44,7 +44,6 @@ The purpose of this project is to practice backend API development using Python 
 | PUT    | `/beats/{beat_id}`     | Updates an existing beat    |
 | DELETE | `/beats/{beat_id}`     | Deletes a beat              |
 
-
 ## How to Run the Project
 
 ### 1. Clone the repository
