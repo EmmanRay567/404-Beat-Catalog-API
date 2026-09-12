@@ -15,7 +15,6 @@ Base = declarative_base()
 
 class Beats(Base):
     __tablename__ = "beats"
-
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String)
     bpm = Column(Integer)
@@ -140,4 +139,5 @@ def delete_beat(beat_id: int):
     raise HTTPException(status_code=404, detail="Beat not found")
 
 if __name__ == "__main__":
-    uvicorn.run("MusicBeatsAPI:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("_404BeatCatalogAPI:app", host="127.0.0.1", port=8000, reload=True)
+
